@@ -9,7 +9,7 @@ spec:
   envFrom:
     - secret: tms-min-side-bunn-secrets
   image: {{version}}
-  port: 8080
+  port: 7100
   liveness:
     path: /tms-min-side-bunn/internal/isAlive
     initialDelay: 10
