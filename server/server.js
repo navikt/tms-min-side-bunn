@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
-const basePath = "/mikronfrontend";
+const basePath = "/tms-min-side-bunn";
 const buildPath = path.resolve(__dirname, "../dist");
 const server = express();
 
