@@ -1,4 +1,5 @@
 # tms-min-side-bunn
+Mikrofrontend som trekkes inn av Min Side.
 
 ## Kom i gang
 1. Bygg tms-min-side-bunn ved å kjøre npm run build
