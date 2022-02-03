@@ -6,7 +6,7 @@ import { fetcher } from "../api/api";
 import "./Personalia.less";
 
 const Personalia = () => {
-  const { data } = useQuery(navnUrl, fetcher);
+  const { data } = useQuery(navnUrl, fetcher, { retry: false });
 
   return (
     <div className="personalia">
