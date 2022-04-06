@@ -3,8 +3,8 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import Personalia from "./components/Personalia";
 import "./App.less";
 
-const App = ({ emitter }) => {
-  emitter.on("level", (level) => console.log(level));
+const App = (props) => {
+  props.emitter.on("level", (level) => console.log(`min-side-bunn: ${level}`));
 
   return (
     <main className="main-bunn">
